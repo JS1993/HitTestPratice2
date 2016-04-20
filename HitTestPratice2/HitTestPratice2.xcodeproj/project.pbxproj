@@ -16,6 +16,7 @@
 		CF960CD41CC7D65B0081A9AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF960CD21CC7D65B0081A9AA /* LaunchScreen.storyboard */; };
 		CF960CDF1CC7D65B0081A9AA /* HitTestPratice2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF960CDE1CC7D65B0081A9AA /* HitTestPratice2Tests.m */; };
 		CF960CEA1CC7D65B0081A9AA /* HitTestPratice2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF960CE91CC7D65B0081A9AA /* HitTestPratice2UITests.m */; };
+		CF960CF91CC7D8B70081A9AA /* playButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CF960CF81CC7D8B70081A9AA /* playButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CF960CE51CC7D65B0081A9AA /* HitTestPratice2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitTestPratice2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF960CE91CC7D65B0081A9AA /* HitTestPratice2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestPratice2UITests.m; sourceTree = "<group>"; };
 		CF960CEB1CC7D65B0081A9AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF960CF71CC7D8B70081A9AA /* playButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playButton.h; sourceTree = "<group>"; };
+		CF960CF81CC7D8B70081A9AA /* playButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				CF960CC51CC7D65B0081A9AA /* AppDelegate.m */,
 				CF960CC71CC7D65B0081A9AA /* ViewController.h */,
 				CF960CC81CC7D65B0081A9AA /* ViewController.m */,
+				CF960CF71CC7D8B70081A9AA /* playButton.h */,
+				CF960CF81CC7D8B70081A9AA /* playButton.m */,
 				CF960CCA1CC7D65B0081A9AA /* Main.storyboard */,
 				CF960CD01CC7D65B0081A9AA /* Assets.xcassets */,
 				CF960CD21CC7D65B0081A9AA /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF960CC91CC7D65B0081A9AA /* ViewController.m in Sources */,
+				CF960CF91CC7D8B70081A9AA /* playButton.m in Sources */,
 				CF960CC61CC7D65B0081A9AA /* AppDelegate.m in Sources */,
 				CF960CC31CC7D65B0081A9AA /* main.m in Sources */,
 				CF960CCF1CC7D65B0081A9AA /* HitTestPratice2.xcdatamodeld in Sources */,
